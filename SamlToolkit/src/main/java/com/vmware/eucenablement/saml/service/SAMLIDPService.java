@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.saml.service;
+package com.omnissa.eucenablement.saml.service;
 
 import org.opensaml.core.config.InitializationException;
 import org.opensaml.core.config.InitializationService;
@@ -11,10 +11,10 @@ import org.opensaml.saml.saml2.metadata.Endpoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.vmware.eucenablement.saml.impl.SAMLSsoRequestImpl;
-import com.vmware.eucenablement.saml.impl.SAMLUtil;
-import com.vmware.samltoolkit.idp.SAMLIDPConf;
-import com.vmware.samltoolkit.idp.SAMLSsoRequest;
+import com.omnissa.eucenablement.saml.impl.SAMLSsoRequestImpl;
+import com.omnissa.eucenablement.saml.impl.SAMLUtil;
+import com.omnissa.samltoolkit.idp.SAMLIDPConf;
+import com.omnissa.samltoolkit.idp.SAMLSsoRequest;
 
 public class SAMLIDPService extends AbstractSAMLService {
 	private static Logger log = LoggerFactory.getLogger(SAMLIDPService.class);
@@ -85,7 +85,7 @@ public class SAMLIDPService extends AbstractSAMLService {
  *
  * @param request
  * @return a SAML Response for browser; IDP should return this response to the browser
- * https://steng.vmwareidentity.asia//SAAS/API/1.0/GET/metadata/sp.xml
+ * https://steng.omnissaidentity.asia//SAAS/API/1.0/GET/metadata/sp.xml
  * NOTICE: call this function only after the authentication has been processed by yourself successfully
  * @throws Exception
  */

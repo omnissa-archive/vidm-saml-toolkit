@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.sample;
+package com.omnissa.eucenablement.sample;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;

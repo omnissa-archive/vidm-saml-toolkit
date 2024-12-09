@@ -1,4 +1,4 @@
-package com.vmware.samltoolkit.idp;
+package com.omnissa.samltoolkit.idp;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -10,8 +10,8 @@ import javax.net.ssl.HttpsURLConnection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.vmware.eucenablement.saml.impl.SAMLSsoRequestImpl;
-import com.vmware.eucenablement.saml.service.SAMLIDPService;
+import com.omnissa.eucenablement.saml.impl.SAMLSsoRequestImpl;
+import com.omnissa.eucenablement.saml.service.SAMLIDPService;
 
 /**
 *
@@ -108,7 +108,7 @@ public class IDPService {
 
 	/**
 	 *
-	 * @param vidmURL like "https://steng.vmwareidentity.asia"
+	 * @param vidmURL like "https://steng.omnissaidentity.asia"
 	 * @param userID
 	 * @param relay
 	 * @return

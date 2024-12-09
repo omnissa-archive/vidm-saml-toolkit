@@ -1,4 +1,4 @@
-package com.vmware.samltoolkit.idp;
+package com.omnissa.samltoolkit.idp;
 
 public interface SAMLSsoRequest {
 	public boolean isValid();

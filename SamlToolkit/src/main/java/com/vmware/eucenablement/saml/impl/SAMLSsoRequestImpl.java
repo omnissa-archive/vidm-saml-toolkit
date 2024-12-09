@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.saml.impl;
+package com.omnissa.eucenablement.saml.impl;
 
 import org.opensaml.messaging.context.MessageContext;
 import org.opensaml.saml.common.SignableSAMLObject;
@@ -8,8 +8,8 @@ import org.opensaml.xmlsec.signature.support.SignatureException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.vmware.samltoolkit.idp.SAMLIDPConf;
-import com.vmware.samltoolkit.idp.SAMLSsoRequest;
+import com.omnissa.samltoolkit.idp.SAMLIDPConf;
+import com.omnissa.samltoolkit.idp.SAMLSsoRequest;
 
 public class SAMLSsoRequestImpl implements SAMLSsoRequest{
 

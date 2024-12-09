@@ -1,4 +1,4 @@
-package com.vmware.samltoolkit.idp;
+package com.omnissa.samltoolkit.idp;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,7 +17,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.InputSource;
 
-import com.vmware.eucenablement.saml.service.AbstractSAMLService;
+import com.omnissa.eucenablement.saml.service.AbstractSAMLService;
 
 public class SAMLIDPConf {
 	private String _issuer ;

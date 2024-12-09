@@ -3,7 +3,7 @@
 
 ## Overview
 
-vIDM (VMware Identity Manager) Integration Toolkit is a simple Java SDK (software development 
+vIDM (Omnissa Identity Manager) Integration Toolkit is a simple Java SDK (software development 
 kit) for web developers who want to integrate vIDM with their web services, with either 
 SAML or OAuth protocol.
 
@@ -82,7 +82,7 @@ There will be some configuration, just check ReadMe.md in each sample directory 
 
 ## Contributing
 
-This vIDM Integration Toolkit project team welcomes contributions from the community. If you wish to contribute code and you have not signed our contributor license agreement (CLA), our bot will update the issue when you open a Pull Request. For any questions about the CLA process, please refer to our [FAQ](https://cla.vmware.com/faq). For more detailed information, refer to [CONTRIBUTING.md](CONTRIBUTING.md).
+This vIDM Integration Toolkit project team welcomes contributions from the community.
 
 ## License
 

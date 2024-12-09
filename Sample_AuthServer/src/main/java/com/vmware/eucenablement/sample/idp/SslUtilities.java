@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.sample.idp;
+package com.omnissa.eucenablement.sample.idp;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;

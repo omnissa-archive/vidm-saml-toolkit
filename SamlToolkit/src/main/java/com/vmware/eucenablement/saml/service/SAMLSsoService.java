@@ -1,14 +1,14 @@
 /*
- * VMware Identity Manager SAML Toolkit
+ * Omnissa Identity Manager SAML Toolkit
  *
- * Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+ * Copyright (c) 2016 Omnissa, LLC. All Rights Reserved.
  *
  * This product is licensed to you under the BSD-2 license (the "License").  You may not use this product except in compliance with the BSD-2 License.
  *
  * This product may include a number of subcomponents with separate copyright notices and license terms. Your use of these subcomponents is subject to the terms and conditions of the subcomponent's license, as noted in the LICENSE file.
  *
  */
-package com.vmware.eucenablement.saml.service;
+package com.omnissa.eucenablement.saml.service;
 
 import org.opensaml.core.config.InitializationException;
 import org.opensaml.core.config.InitializationService;
@@ -22,10 +22,10 @@ import org.opensaml.saml.saml2.metadata.Endpoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.vmware.eucenablement.saml.impl.SAMLSsoResponseImpl;
-import com.vmware.eucenablement.saml.impl.SAMLUtil;
-import com.vmware.samltoolkit.SAMLSsoResponse;
-import com.vmware.samltoolkit.SAMLToolkitConf;
+import com.omnissa.eucenablement.saml.impl.SAMLSsoResponseImpl;
+import com.omnissa.eucenablement.saml.impl.SAMLUtil;
+import com.omnissa.samltoolkit.SAMLSsoResponse;
+import com.omnissa.samltoolkit.SAMLToolkitConf;
 
 /**
  * Core service to handle Single Sign On and Single Log Out.

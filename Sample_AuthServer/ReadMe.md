@@ -43,7 +43,7 @@ follow the instructions displayed.
 
 ## What you need to do
 
-Just refer [MyIDPServlet](src/main/java/com/vmware/eucenablement/sample/servlet/MyIDPServlet.java) 
+Just refer [MyIDPServlet](src/main/java/com/omnissa/eucenablement/sample/servlet/MyIDPServlet.java) 
 to see how it works. You just need to authorize the user in your own way.
 
 If you want to deploy it on web server, please modify the IP Address in [idp.xml](webapp/idp.xml#L66) 

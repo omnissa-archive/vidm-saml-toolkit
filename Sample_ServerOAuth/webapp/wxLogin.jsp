@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
-<%@ page import="com.vmware.eucenablement.sample.idp.MyIDP"%>
+<%@ page import="com.omnissa.eucenablement.sample.idp.MyIDP"%>
 <%@ page import="java.util.*" %>
-<%@ page import="com.vmware.eucenablement.oauth.util.OAuthUtil" %>
-<%@ page import="com.vmware.eucenablement.sample.servlet.WeChatServlet" %>
+<%@ page import="com.omnissa.eucenablement.oauth.util.OAuthUtil" %>
+<%@ page import="com.omnissa.eucenablement.sample.servlet.WeChatServlet" %>
 <%@ page import="java.net.URLEncoder" %>
 <%@ page import="org.opensaml.xml.signature.Q" %>
 

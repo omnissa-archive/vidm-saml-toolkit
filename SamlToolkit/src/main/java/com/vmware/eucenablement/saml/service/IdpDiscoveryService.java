@@ -1,14 +1,14 @@
 /*
- * VMware Identity Manager SAML Toolkit
+ * Omnissa Identity Manager SAML Toolkit
  * 
- * Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+ * Copyright (c) 2016 Omnissa, LLC. All Rights Reserved.
  * 
  * This product is licensed to you under the BSD-2 license (the "License").  You may not use this product except in compliance with the BSD-2 License. 
  * 
  * This product may include a number of subcomponents with separate copyright notices and license terms. Your use of these subcomponents is subject to the terms and conditions of the subcomponent's license, as noted in the LICENSE file. 
  * 
  */
-package com.vmware.eucenablement.saml.service;
+package com.omnissa.eucenablement.saml.service;
 
 import java.io.IOException;
 import java.security.cert.CertificateException;
@@ -40,9 +40,9 @@ import org.opensaml.xmlsec.signature.X509Data;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.vmware.eucenablement.saml.api.IdpMainMetadata;
-import com.vmware.eucenablement.saml.impl.IdpMainMetadataImpl;
-import com.vmware.eucenablement.saml.impl.SAMLUtil;
+import com.omnissa.eucenablement.saml.api.IdpMainMetadata;
+import com.omnissa.eucenablement.saml.impl.IdpMainMetadataImpl;
+import com.omnissa.eucenablement.saml.impl.SAMLUtil;
 
 import net.shibboleth.utilities.java.support.resolver.CriteriaSet;
 import net.shibboleth.utilities.java.support.xml.BasicParserPool;

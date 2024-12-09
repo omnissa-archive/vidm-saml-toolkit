@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
-	AssertionConsumerServiceURL="https://steng.vmwareidentity.asia/SAAS/auth/saml/response"
+	AssertionConsumerServiceURL="https://steng.omnissaidentity.asia/SAAS/auth/saml/response"
 	Destination="https://localhost:8443/SamlSample/saml2postlogin"
 	ForceAuthn="false" ID="_467d7594d165707e0bf3d97c9e14fef5" IssueInstant="2017-03-30T02:46:02.666Z"
 	ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
-	ProviderName="steng.vmwareidentity.asia" Version="2.0">
-	<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">https://steng.vmwareidentity.asia/SAAS/API/1.0/GET/metadata/sp.xml
+	ProviderName="steng.omnissaidentity.asia" Version="2.0">
+	<saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">https://steng.omnissaidentity.asia/SAAS/API/1.0/GET/metadata/sp.xml
 	</saml:Issuer>
 	<samlp:NameIDPolicy AllowCreate="false"
 		Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified" />

@@ -2,9 +2,7 @@
 
 # Contributing to vidm-saml-toolkit
 
-The vidm-saml-toolkit project team welcomes contributions from the community. If you wish to contribute code and you have not
-signed our contributor license agreement (CLA), our bot will update the issue when you open a Pull Request. For any
-questions about the CLA process, please refer to our [FAQ](https://cla.vmware.com/faq).
+The vidm-saml-toolkit project team welcomes contributions from the community. 
 
 
 
@@ -21,7 +19,7 @@ This is a rough outline of what a contributor's workflow looks like:
 Example:
 
 ``` shell
-git remote add upstream https://github.com/vmware/vidm-saml-toolkit.git
+git remote add upstream https://github.com/omnissa-archive/vidm-saml-toolkit.git
 git checkout -b my-new-feature master
 git commit -a
 git push origin my-new-feature
@@ -29,7 +27,7 @@ git push origin my-new-feature
 
 ### Staying In Sync With Upstream
 
-When your branch gets out of sync with the vmware/master branch, use the following to update:
+When your branch gets out of sync with the omnissa-archive/master branch, use the following to update:
 
 ``` shell
 git checkout my-new-feature

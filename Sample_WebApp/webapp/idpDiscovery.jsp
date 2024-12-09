@@ -1,7 +1,7 @@
 <!--  
- VMware Identity Manager SAML Toolkit
+ Omnissa Identity Manager SAML Toolkit
 
-Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+Copyright (c) 2016 Omnissa, LLC. All Rights Reserved.
 
 This product is licensed to you under the BSD-2 license (the "License").  You may not use this product except in compliance with the BSD-2 License.
 
@@ -24,7 +24,7 @@ This product may include a number of subcomponents with separate copyright notic
 	                	<form action="configIDPURI.jsp" method="post">
 	                	<p>Your vIDM ROOT URL:</p> 
 	                	<br/>
-						<div><input name="vidmidp" type="text" style="width: 300px;color:#fff;background-color:#000;" placeholder="https://yourcompany.vmwareidentity.com"></div>
+						<div><input name="vidmidp" type="text" style="width: 300px;color:#fff;background-color:#000;" placeholder="https://yourcompany.omnissaidentity.com"></div>
 						<br/>
 						<div><input id="byPassCert" type="checkbox" name="byPassCert" value="true" checked="checked" /> <label for="byPassCert"> Bypass SSL certificate validation for vIDM </label></div>
 						<br/>

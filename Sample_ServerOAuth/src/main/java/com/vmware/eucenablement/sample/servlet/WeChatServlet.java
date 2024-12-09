@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.sample.servlet;
+package com.omnissa.eucenablement.sample.servlet;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -23,12 +23,12 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.vmware.eucenablement.oauth.OAuth2Config;
-import com.vmware.eucenablement.oauth.util.OAuthUtil;
-import com.vmware.eucenablement.oauth.OAuthException;
-import com.vmware.eucenablement.oauth.impl.WeChatOAuth2Impl;
-import com.vmware.eucenablement.sample.idp.MyIDP;
-import com.vmware.samltoolkit.idp.SAMLSsoRequest;
+import com.omnissa.eucenablement.oauth.OAuth2Config;
+import com.omnissa.eucenablement.oauth.util.OAuthUtil;
+import com.omnissa.eucenablement.oauth.OAuthException;
+import com.omnissa.eucenablement.oauth.impl.WeChatOAuth2Impl;
+import com.omnissa.eucenablement.sample.idp.MyIDP;
+import com.omnissa.samltoolkit.idp.SAMLSsoRequest;
 
 /**
  * Created by chenzhang on 2017-08-03.

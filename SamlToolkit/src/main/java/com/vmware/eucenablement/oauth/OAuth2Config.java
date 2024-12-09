@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.oauth;
+package com.omnissa.eucenablement.oauth;
 
 import java.io.IOException;
 import java.net.URLEncoder;

@@ -1,6 +1,6 @@
-package com.vmware.eucenablement.oauth.util;
+package com.omnissa.eucenablement.oauth.util;
 
-import com.vmware.eucenablement.oauth.OAuthException;
+import com.omnissa.eucenablement.oauth.OAuthException;
 
 import org.json.JSONObject;
 import org.opensaml.xml.util.Base64;

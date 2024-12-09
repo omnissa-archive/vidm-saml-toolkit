@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.oauth.util;
+package com.omnissa.eucenablement.oauth.util;
 
 import static java.net.HttpURLConnection.HTTP_BAD_REQUEST;
 import static java.net.HttpURLConnection.HTTP_CREATED;

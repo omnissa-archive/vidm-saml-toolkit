@@ -23,7 +23,7 @@ You need to configure your vIDM to use this sample.
 2. Fill the blanks and save. 
 ![Choose blanks](webapp/img/step2.png)
 
-3. Go to [VIDMServlet](src/main/java/com/vmware/eucenablement/sample/VIDMServlet.java#L31),
+3. Go to [VIDMServlet](src/main/java/com/omnissa/eucenablement/sample/VIDMServlet.java#L31),
 and configure APP_ID, APP_SECRET and REDIRECT_URI to correct value.
 ![Configure APP_ID](webapp/img/step3.png)
 
@@ -40,7 +40,7 @@ follow the instructions displayed.
 ## What you need to do
 
 Just refer [configIDPURI.jsp](webapp/configIDPURI.jsp) and
-[VIDMServlet](src/main/java/com/vmware/eucenablement/sample/VIDMServlet.java)
+[VIDMServlet](src/main/java/com/omnissa/eucenablement/sample/VIDMServlet.java)
 to see how it works. 
 
 If you want to deploy it on web server, please re-configure the REDIRECT_URI on your vIDM.
@@ -65,7 +65,7 @@ Step 2. Redirect the login request to vIDM.
 response.sendRedirect(vidmoAuth2.getAuthorizationUrl(""));
 ```
 
-Step 3. Get access_token and user info by code. All valid attributes can be seen [here](https://github.com/vmware/idm/wiki/Integrating-Webapp-with-OAuth2#using-the-id-token).
+Step 3. Get access_token and user info by code. All valid attributes can be seen [here](https://github.com/omnissa/idm/wiki/Integrating-Webapp-with-OAuth2#using-the-id-token).
 ```
 vidmoAuth2.getAccessTokenFromOAuthServer(code);
 // Get username and email

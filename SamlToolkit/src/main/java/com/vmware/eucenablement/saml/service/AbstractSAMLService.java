@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.saml.service;
+package com.omnissa.eucenablement.saml.service;
 
 import java.security.KeyStore;
 

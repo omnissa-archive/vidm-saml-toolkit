@@ -44,7 +44,7 @@ follow the instructions displayed.
 
 ## What you need to do
 
-Just refer [MyWebServer](src/main/java/com/vmware/eucenablement/sample/MyWebServer.java)
+Just refer [MyWebServer](src/main/java/com/omnissa/eucenablement/sample/MyWebServer.java)
 to see how it works. 
 
 If you want to deploy it on web server, please re-configure the consume URL on your vIDM.
@@ -56,7 +56,7 @@ To use vIDM as IDP, you need to do the following:
 Step 1. Create a new SSOService when your web server is started.
 ```
 SAMLToolkitConf conf = new SAMLToolkitConf();
-conf.setIdpURL("${yourcompany}.vmwareidentity.com");
+conf.setIdpURL("${yourcompany}.omnissaidentity.com");
 conf.setConsumerURL("http://${host}:${port}/${path_to_consume}");
 conf.setByPassSSLCertValidation(true);
 SSOService service = new SSOService(conf);

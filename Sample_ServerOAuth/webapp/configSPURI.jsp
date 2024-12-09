@@ -1,7 +1,7 @@
 <!--  
- VMware Identity Manager SAML Toolkit
+ Omnissa Identity Manager SAML Toolkit
 
-Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+Copyright (c) 2016 Omnissa, LLC. All Rights Reserved.
 
 This product is licensed to you under the BSD-2 license (the "License").  You may not use this product except in compliance with the BSD-2 License.
 
@@ -12,11 +12,11 @@ This product may include a number of subcomponents with separate copyright notic
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.List" %>
-<%@ page import="com.vmware.eucenablement.sample.idp.MyIDP" %>
-<%@ page import="com.vmware.eucenablement.sample.idp.SslUtilities" %>
-<%@ page import="com.vmware.samltoolkit.idp.IDPService"%>
-<%@ page import="com.vmware.samltoolkit.idp.SAMLIDPConf"%>
-<%@ page import="com.vmware.samltoolkit.SAMLToolkitConf"%>
+<%@ page import="com.omnissa.eucenablement.sample.idp.MyIDP" %>
+<%@ page import="com.omnissa.eucenablement.sample.idp.SslUtilities" %>
+<%@ page import="com.omnissa.samltoolkit.idp.IDPService"%>
+<%@ page import="com.omnissa.samltoolkit.idp.SAMLIDPConf"%>
+<%@ page import="com.omnissa.samltoolkit.SAMLToolkitConf"%>
 <%@ page import="java.util.Map" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -64,7 +64,7 @@ This product may include a number of subcomponents with separate copyright notic
 						 <div class="row">
 	            <div class="col-xs-12 col-lg-6">	
 		          
-		              <p><a class="btn btn-default btn-lg" target="_new" href="http://pubs.vmware.com/vidm/topic/com.vmware.vidm_workspace-one.doc/GUID-C1A2F5E4-E117-4CD7-A672-C19040527C4B.html" role="button">vIDM Document >>></a></p>
+		              <p><a class="btn btn-default btn-lg" target="_new" href="http://pubs.omnissa.com/vidm/topic/com.omnissa.vidm_workspace-one.doc/GUID-C1A2F5E4-E117-4CD7-A672-C19040527C4B.html" role="button">vIDM Document >>></a></p>
 	          
 	            </div>
 	            <div class="col-xs-12 col-lg-6" >

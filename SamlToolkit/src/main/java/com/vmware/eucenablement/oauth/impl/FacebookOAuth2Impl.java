@@ -1,9 +1,9 @@
-package com.vmware.eucenablement.oauth.impl;
+package com.omnissa.eucenablement.oauth.impl;
 
-import com.vmware.eucenablement.oauth.OAuth2;
-import com.vmware.eucenablement.oauth.OAuth2Config;
-import com.vmware.eucenablement.oauth.OAuthException;
-import com.vmware.eucenablement.oauth.util.OAuthUtil;
+import com.omnissa.eucenablement.oauth.OAuth2;
+import com.omnissa.eucenablement.oauth.OAuth2Config;
+import com.omnissa.eucenablement.oauth.OAuthException;
+import com.omnissa.eucenablement.oauth.util.OAuthUtil;
 
 import java.io.IOException;
 import java.util.Map;

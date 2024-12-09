@@ -1,9 +1,9 @@
-package com.vmware.eucenablement.sample;
+package com.omnissa.eucenablement.sample;
 
-import com.vmware.eucenablement.oauth.OAuth2Config;
-import com.vmware.eucenablement.oauth.impl.VIDMOAuth2Impl;
-import com.vmware.eucenablement.oauth.util.HttpRequest;
-import com.vmware.eucenablement.oauth.util.OAuthUtil;
+import com.omnissa.eucenablement.oauth.OAuth2Config;
+import com.omnissa.eucenablement.oauth.impl.VIDMOAuth2Impl;
+import com.omnissa.eucenablement.oauth.util.HttpRequest;
+import com.omnissa.eucenablement.oauth.util.OAuthUtil;
 
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.Response;

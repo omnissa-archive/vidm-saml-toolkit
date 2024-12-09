@@ -1,12 +1,12 @@
-package com.vmware.eucenablement.sample.idp;
+package com.omnissa.eucenablement.sample.idp;
 
 import java.io.InputStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.vmware.samltoolkit.idp.IDPService;
-import com.vmware.samltoolkit.idp.SAMLIDPConf;
+import com.omnissa.samltoolkit.idp.IDPService;
+import com.omnissa.samltoolkit.idp.SAMLIDPConf;
 
 public class MyIDP {
 

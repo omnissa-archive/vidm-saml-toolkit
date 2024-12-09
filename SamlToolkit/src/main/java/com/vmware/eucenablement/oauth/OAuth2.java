@@ -1,7 +1,7 @@
-package com.vmware.eucenablement.oauth;
+package com.omnissa.eucenablement.oauth;
 
-import com.vmware.eucenablement.oauth.util.HttpRequest;
-import com.vmware.eucenablement.oauth.util.OAuthUtil;
+import com.omnissa.eucenablement.oauth.util.HttpRequest;
+import com.omnissa.eucenablement.oauth.util.OAuthUtil;
 
 import org.json.JSONObject;
 
@@ -68,7 +68,7 @@ public abstract class OAuth2 {
      * <p>The method (GET/POST) to require access token from OAuth Server.</p>
      * <p>If it's a post request, then <code>getAccessTokenUrl(code, additionalParams)</code> must return
      * the base url, and put all the parameters into <code>additionalParams</code>.</p>
-     * <p>See {@linkplain com.vmware.eucenablement.oauth.impl.GoogleOAuth2Impl#getAccessTokenUrl(String, Map)
+     * <p>See {@linkplain com.omnissa.eucenablement.oauth.impl.GoogleOAuth2Impl#getAccessTokenUrl(String, Map)
      * GoogleOAuthImpl#getAccessTokenUrl(String, Map)}.</p>
      * @return
      */
@@ -176,7 +176,7 @@ public abstract class OAuth2 {
      * <p>The method (GET/POST) to refresh access token from OAuth Server.</p>
      * <p>If it's a post request, then <code>getRefreshTokenUrl(refresh_token, additionalParams)</code> must return
      * the base url, and put all the parameters into <code>additionalParams</code>.</p>
-     * <p>See {@linkplain com.vmware.eucenablement.oauth.impl.GoogleOAuth2Impl#getRefreshTokenUrl(String, Map)
+     * <p>See {@linkplain com.omnissa.eucenablement.oauth.impl.GoogleOAuth2Impl#getRefreshTokenUrl(String, Map)
      * GoogleOAuthImpl#getRefreshTokenUrl(String, Map)}.</p>
      * @return
      */

@@ -8,7 +8,7 @@ information, then map the uid to vIDM user, to authorize the user.
 
 In our toolkit, we support OAuth of WeChat, Sina Weibo, Google and Facebook. You may support
 your own OAuth Server you want by extending
-[OAuth2](../SamlToolkit/src/main/java/com/vmware/eucenablement/oauth/OAuth2.java) class.  
+[OAuth2](../SamlToolkit/src/main/java/com/omnissa/eucenablement/oauth/OAuth2.java) class.  
 
 In this sample, we only show you how to login with WeChat.
 
@@ -36,7 +36,7 @@ access it. Let's call it `${host}`.
 ![Require a test public account](webapp/img/wechat_step1.png)
 
 4. Remember the APPId and APPSecret, and configure them to 
-[WeChatServlet](src/main/java/com/vmware/eucenablement/sample/servlet/WeChatServlet.java#34).
+[WeChatServlet](src/main/java/com/omnissa/eucenablement/sample/servlet/WeChatServlet.java#34).
 ![Remembet APPID and APPSecret](webapp/img/wechat_step2.png)
 
 5. Scan the QRCode to follow the test public account.
@@ -66,7 +66,7 @@ mobile will use the SAME URL to verify the user.
 
 ## What you need to do
 
-Just refer [wxLogin.jsp](webapp/wxLogin.jsp) and [WeChatServlet](src/main/java/com/vmware/eucenablement/sample/servlet/WeChatServlet.java)
+Just refer [wxLogin.jsp](webapp/wxLogin.jsp) and [WeChatServlet](src/main/java/com/omnissa/eucenablement/sample/servlet/WeChatServlet.java)
 to see how it works.
 
 We generate QRCode by myself, however if you have a valid public account, you can generate
@@ -80,7 +80,7 @@ or [Facebook](https://developers.facebook.com/docs/facebook-login/manually-build
 you can use your own.  
 
 You can also support your own OAuth Server you want by extending
-[OAuth2](../SamlToolkit/src/main/java/com/vmware/eucenablement/oauth/OAuth2.java#L16) class. 
+[OAuth2](../SamlToolkit/src/main/java/com/omnissa/eucenablement/oauth/OAuth2.java#L16) class. 
 
 ## Documentation
 

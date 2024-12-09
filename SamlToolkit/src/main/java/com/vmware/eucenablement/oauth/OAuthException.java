@@ -1,4 +1,4 @@
-package com.vmware.eucenablement.oauth;
+package com.omnissa.eucenablement.oauth;
 
 /**
  * <p>OAuth2 Exception. It's a RuntimeException, you don't need to handle it.</p>
